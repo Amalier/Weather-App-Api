@@ -165,6 +165,8 @@ async function weatherApp() {
             displayOneLiner(day.twentyFourHourSymbol.split("_")[0]);
         }
 
+    } else {
+        console.log("Fant ikke værdata for denne lokasjonen")
     }
 }
 
